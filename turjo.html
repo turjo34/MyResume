@@ -1,6 +1,25 @@
  <!DOCTYPE html>
  <html>
  <head>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse; 
+    }
+    th {
+      padding: 4px;
+      text-align: center;
+    }
+    td {
+      text-align: center;
+      width: 25%;
+    }
+    caption {
+      text-decoration: underline;
+      margin-bottom: 5px;
+    }
+
+  </style>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Responsive CV using html and css</title>
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -187,7 +206,40 @@
            <li><i class="fa fa-microphone" aria-hidden="true"></i>Singing</li>
            <li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
            <li><i class="fa fa-cutlery" aria-hidden="true"></i>Cooking</li>
-         </ul>     
+         </ul> 
+        
+         <table>
+          <caption>Educational Qualification</caption>
+          <thead>
+            <tr>
+              <th>Exam Name</th>
+              <th>Board</th>
+              <th>GPA</th>
+              <th>Passing Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>JSC</td>
+              <td>Chattogram</td>
+              <td>5.00</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>SSC</td>
+              <td>Chattogram</td>
+              <td>5.00</td>
+              <td>2019</td>
+            </tr>
+            <tr>
+              <td>HSC</td>
+              <td>Chattogram</td>
+              <td>5.00</td>
+              <td>2021</td>
+            </tr>
+          </tbody>   
+        </table>
+        
        </div>
         
 
